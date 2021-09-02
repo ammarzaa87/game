@@ -13,7 +13,7 @@ window.onload = function () {
 	
 	
     /*wall */
-    for (var i = 0; i < wall.length; i++)
+    for (var i = 0; i < wall.length - 1; i++)
         wall[i].addEventListener("mouseover", hit);
 	
 
@@ -30,7 +30,7 @@ window.onload = function () {
 	function IsOutside(){
 		isInMap = false;
 	}
-	function hit(event){
+	function hit(){
 		if (isStart) {
 			
 			for (var i = 0; i < wall.length - 1; i++) {
