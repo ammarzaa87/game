@@ -33,7 +33,7 @@ window.onload = function () {
 	function hit(event){
 		if (isStart) {
 			
-			for (var i = 0; i < wall.length; i++) {
+			for (var i = 0; i < wall.length - 1; i++) {
 				wall[i].style.backgroundColor = "#FF0000"; 
 				
 				}
