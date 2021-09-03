@@ -5,7 +5,7 @@ window.onload = function () {
 	document.getElementById("status").textContent = "";
     var wall = document.getElementsByClassName("boundary");
     /*start */
-    document.getElementById("start").addEventListener("mouseover", start);
+    document.getElementById("start").addEventListener("click", start);
 	
 
     /*out of the map */
@@ -18,7 +18,7 @@ window.onload = function () {
 	
 
     /*end */
-    document.getElementById("end").addEventListener("mouseover",end);
+    document.getElementById("end").addEventListener("click",end);
 	
 	function start(){
 		
